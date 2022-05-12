@@ -1,0 +1,8 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    email: 
+        label: EMAIL
+        type: email

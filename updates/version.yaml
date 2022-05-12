@@ -1,0 +1,4 @@
+1.0.1: First version of Newsletter
+1.0.2:
+  - Create NewsLetter model
+  - 2022_5_12_create_newsletters_table.php

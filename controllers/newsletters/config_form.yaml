@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Newsletter
+
+# Model Form Field configuration
+form: $/goosy/newsletter/models/newsletter/fields.yaml
+
+# Model Class name
+modelClass: Goosy\Newsletter\Models\Newsletter
+
+# Default redirect location
+defaultRedirect: goosy/newsletter/newsletters
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: goosy/newsletter/newsletters/update/:id
+    redirectClose: goosy/newsletter/newsletters
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: goosy/newsletter/newsletters
+    redirectClose: goosy/newsletter/newsletters
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title
