@@ -12,6 +12,6 @@ class NewsletterController extends Controller
         $newsletter = new Newsletter;
         $newsletter->email = $request->input('email');
         $newsletter->save();
-        return  'kokot';
+        return  ['error'=>null];
     }
 }
